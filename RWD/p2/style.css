@@ -1,13 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
 body {
-    background: lightgoldenrodyellow;
-    font-family: 'Segeo UI', 'Helvatica Nueue', Arial, Helvetica, sans-serif;
+    background-color: linear-gradient(bottom right,  #596b79,  #a7aaad);
+    background: -moz-linear-gradient(bottom right,  #596b79,  #a7aaad);
+    font-family: 'Roboto', Arial, sans-serif;
     line-height: 1.7;
 }
 
 main {
-    background: #eeeeee;
+    background-color: #eeeeee;
     max-width: 500px;
     margin: 20px auto;
     padding: 20px 20px;
     border-radius: 1rem;
+    box-shadow: 8px 10px 15px 1px #4b4c4d;
+}
+
+#title {
+    font-family: Arial;
+    font-weight: 800;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+
+#description {
+    margin-top: 0;
+    padding-top: 0;
+    font-style: italic;
+}
+
+label, legend {
+    font-weight: 600;
+}
+
+#name, #email, #number, #dropdown {
+    width: 100%;
+    height: 30px;
+}
+
+textarea {
+    width: 100%;
+}
+
+button {
+    background: rgb(95, 153, 9);
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    border: 0;
 }
