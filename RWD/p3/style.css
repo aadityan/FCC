@@ -138,3 +138,54 @@ h2 {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     color: #edf0f1b2
 }
+
+/* Pricing Formatting */
+#pricing {
+    display: flex;
+    padding: 40px 10%;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.pricing-options {
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed #edf0f1;
+    text-align: center;
+    line-height: 2;
+    align-items: center;
+    width: 30%;
+    align-items: center;
+}
+
+.pricing-options>.p-header {
+    background-color: #0088a9;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #edf0f1;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+}
+
+.pricing-options>.p-price {
+    font-weight: bold;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.pricing-options>.p-options ul li {
+    list-style: none;
+}
+
+.pricing-options > .p-select {
+    border: 0;
+    width: 50%;
+    height: 30px;
+    text-transform: uppercase;
+    background-color: rgb(8, 151, 104);
+    margin: 10px 0;
+    font-weight: bold;
+}
