@@ -95,6 +95,46 @@ h2 {
     padding: 10px;
     font-family: 'Lato';
     text-transform: uppercase;
-    color: #242424;
     font-weight: 700;
+}
+
+/* Features Formatting */
+
+/* 
+ 1. Use flexbox on each feature-set
+ 2. It should be columnar with 
+    Column 1 = Picture
+    Column 2 = Header + Desc
+3. Border around flexbox light gray
+*/
+
+#features {
+    box-sizing: border-box;
+    padding: 0 10%;
+}
+
+.feature-set {
+    display: flex;
+    padding: 20px 10px;
+    padding-left: 20px;
+    margin: 40px 0;
+    align-items: center;
+}
+
+.fs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.fs-header {
+    font-family: 'Roboto Slab', 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.fs-desc {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    color: #edf0f1b2
 }
