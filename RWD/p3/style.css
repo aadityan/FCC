@@ -7,6 +7,7 @@
     background-color: #24252A;
     position: relative;
     box-sizing: border-box;
+    color: #edf0f1;
 }
 
 /* Header Formatting */
@@ -61,3 +62,39 @@ img {
 }
 
 /* Form + H2 Formatting */
+#sign-up {
+    padding: 30px 10%;
+    text-align: center;
+    font-family: 'Roboto Slab', sans-serif;
+    color: #edf0f1;
+}
+
+h2 {
+    padding: 10px;
+}
+
+#form {
+    padding: 10px;
+    line-height: 2;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+#form input {
+    color: #edf0f1;
+}
+
+#form #email {
+    line-height: 2.5;
+    margin: 10px 0;
+    width: 300px;
+}
+
+#submit {
+    background-color: rgb(8, 151, 104);
+    border: 0;
+    padding: 10px;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    color: #242424;
+    font-weight: 700;
+}
