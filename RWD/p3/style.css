@@ -8,6 +8,7 @@
     position: relative;
     box-sizing: border-box;
     color: #edf0f1;
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
 }
 
 /* Header Formatting */
@@ -188,4 +189,28 @@ h2 {
     background-color: rgb(8, 151, 104);
     margin: 10px 0;
     font-weight: bold;
+}
+
+/* Footer Formatting */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 30px 10%;
+    line-height: 1.5;
+}
+
+footer > ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+
+.footer {
+    padding: 0 20px;
+}
+
+.footer:last-child {
+    padding-right: 0;
 }
