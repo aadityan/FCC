@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* Header Formatting */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    position: sticky;
+    top: 0;
+    background-color: 24252A;
+    z-index: 10;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+#company-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #edf0f1;
+    margin-right: auto;
+
+}
+
+#nav-bar {
+    list-style: none;
+}
+
+#nav-bar li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#nav-bar li a {
+    transition: all 0.3s ease 0s;
+    font-family: 'Roboto Slab', 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+#nav-bar li a:hover {
+    transition: all 0.3s ease 0s;
+    color: #0088a9;
+}
+
+/* Form + H2 Formatting */
