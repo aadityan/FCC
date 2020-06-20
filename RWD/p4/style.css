@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', 'Lato', Arial, Helvetica, sans-serif;
+}
+
+/* Navbar Formatting */
+#navbar {
+    float: left;
+    width: 25%;
+    height: 100%;
+    overflow: scroll;
+    position: fixed;
+    border-right: 3px solid gray;
+}
+
+#navbar header {
+    font-size: 1.7em;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+    margin: 10px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+}
+#navbar ul li {
+    text-decoration: none;
+    list-style: none;
+    border-top: 1px solid black;
+    padding: 5px 30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 15px;
+}
+
+#navbar ul li a:active {
+    color: black;
+}
+
+#navbar ul li a:visited {
+    color: black;
+}
+
+
+/* Main-doc formatting */
+#main-doc {
+    float: right;
+    width: 75%;
+    height: 100%;
+    overflow: scroll;
+    padding: 10px 40px;
+}
+
+#main-doc > section > header {
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 20px 0;
+}    
+
+#main-doc > section > p {
+    line-height: 1.7;
+    padding: 10px;
+}
+
+#main-doc > section > ul {
+    padding-top: 10px;
+    padding-left: 50px;
+    line-height: 1.7;
+}
+
+#main-doc > section > ul > li {
+    padding-bottom: 10px;
+    list-style: circle;
+}
+
+
+code {
+    display: block;
+    background: #eee;
+    font-family: monospace;
+    margin: 5px 20px;
+    padding: 15px;
+    font-size: .8rem;
+    line-height: 2;
+}
