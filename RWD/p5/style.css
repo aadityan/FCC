@@ -36,6 +36,14 @@
     color: black;
 }
 
+
+@media (max-width: 600px) {
+    #navbar {
+        justify-content: center;
+    }
+}
+
+
 /* Format the welcome section */
 #welcome-section {
     width: 100%;
@@ -127,4 +135,47 @@
     color: #d68924;
 }
 
+#all-projects {
+    border: 0;
+    background: #d68924;
+    color: #eee;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
 /* Format footer */
+#contact {
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+
+    font-family: 'Playfair Display';
+    font-size: 3rem;
+    font-weight: 800;
+    color: #eee;
+
+    background: #080825;
+}
+
+.contact-link {
+    display: inline;
+    font-family: 'Roboto Slab';
+    font-size: 1.3rem;
+    padding: 0 20px;
+
+    text-decoration: none;
+    color: #eee;
+}
+
+footer {
+    background: #080825;
+    color: #eee;
+
+    padding: 0 10px;
+    text-align: right;
+    font-size: .8rem;
+}
