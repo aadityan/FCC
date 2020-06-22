@@ -23,9 +23,7 @@
 }
 
 #navbar > ul > li {
-    display-style: none;
     display: inline-block;
-    float: right;
 }
 
 #navbar > ul > li > a {
